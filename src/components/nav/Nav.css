@@ -1,0 +1,275 @@
+.devsite-top-section {
+  background-color: #ffffff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, .28);
+  position: static;
+  top: 0;
+  width: 100%;
+  z-index: 10005
+}
+
+.devsite-top-section-pinned {
+  position: fixed;
+  transform: rotateZ(0);
+}
+
+.devsite-top-logo-row-wrapper-wrapper {
+  border-bottom: 0;
+  position: fixed;
+  top: 0;
+  transform: translateZ(0);
+  width: 100%;
+  z-index: 10006;
+}
+
+.devsite-top-logo-row-wrapper {
+  background: #ffffff;
+}
+
+.devsite-top-logo-row {
+  display: flex;
+  height: 48px;
+  padding: 0 24px;
+  position: relative;
+}
+
+.devsite-full-site-width {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.devsite-expand-section-nav::before {
+  display: inline-block;
+  margin: 12px 16px 12px 0;
+  content: menu;
+}
+
+.devsite-header-icon-button {
+  color: rgba(0, 0, 0, .54);
+  display: none;
+  flex: 0 0 auto;
+  height: 24px;
+  width: 24px;
+  min-width: 24px;
+  padding: 0;
+  transition: color .2s;
+}
+
+.button-flat {
+  padding: 8px;
+  background: 0;
+  box-shadow: none;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  cursor: default;
+  user-select: none;
+  border: 0;
+  border-radius: 2px;
+  outline: 0;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  vertical-align: middle;
+}
+
+.devsite-product-name-wrapper {
+  display: flex;
+  flex: 0 0 auto;
+  height: 36px;
+  margin: 6px;
+}
+
+.devsite-site-logo {
+  height: 32px;
+  margin: 2px 0;
+}
+
+.devsite-site-name {
+  display: none;
+}
+
+.devsite-product-name {
+  color: rgba(0, 0, 0, .54);
+  letter-spacing: 0;
+  margin: 0;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.devsite-header-upper-tabs:not(:empty) {
+  margin-left: 48px;
+}
+
+.devsite-header-upper-tabs {
+  display: inline-block;
+  flex: 1 1 0;
+  overflow-y: auto;
+  vertical-align: top;
+  transition: flex .2s, margin .2s, width .2s, -ms-flex .2s;
+}
+
+.devsite-doc-set-nav {
+  flex: 1 0 auto;
+}
+
+.devsite-nav {
+  font-size: 13px;
+}
+
+.devsite-overflow-tabs-scroll-wrapper {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  list-style: disc outside;
+}
+
+.devsite-doc-set-nav-tab-list {
+  white-space: nowrap;
+}
+
+.devsite-overflow-tabs-scroll {
+  left: 0;
+  position: relative;
+  transition: left .2s;
+  width: 100%;
+}
+
+.devsite-doc-set-nav-tab-container {
+  display: inline-block;
+  margin: 0;
+}
+
+.devsite-nav-tab {
+  align-items: center;
+  display: inline-flex;
+}
+
+.devsite-doc-set-nav-tab {
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+  display: inline-block;
+  font: 500 14px/44px Roboto, sans-serif;
+  margin: 0;
+  padding: 0 24px;
+  transition: color .2s;
+  outline: 0;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+.devsite-overflow-tabs-scroll-button {
+  background: #fff;
+}
+
+.devsite-top-button {
+  color: #039be5;
+  box-shadow: none;
+
+}
+
+.devsite-scroll-forward {
+
+}
+
+.devsite-hidden {
+
+}
+
+.devsite-header-link {
+  align-items: center;
+  display: flex;
+  margin: 6px -8px 6px 16px;
+}
+
+.devsite-top-button {
+  background: 0;
+  box-shadow: none;
+  transition: background-color .2s, color .2s;
+  /*padding: 8px;*/
+}
+
+.button {
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  font: 500 14px/20px Roboto, sans-serif;
+  height: 36px;
+  min-width: 36px;
+  outline: 0;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.devsite-settings-menu-wrapper {
+  position: relative;
+}
+
+.devsite-settings-kabob {
+  display: block;
+  margin: 12px 0px 12px 12px;
+}
+
+.devsite-header-icon-button {
+  color: rgba(0, 0, 0, 0.54);
+  flex: 0 0 auto;
+  height: 24px;
+  min-width: 24px;
+  padding: 0;
+  transition: color .2s;
+  width: 24px;
+}
+
+.devsite-settings-menu {
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.37);
+  padding: 8px 0;
+  position: absolute;
+  right: 0;
+  top: 4px;
+  white-space: nowrap;
+  z-index: 10012;
+}
+
+.devsite-hidden {
+  display: none;
+}
+
+.devsite-settings-menu-link {
+  font: 14px/20px Roboto, sans-serif;
+  padding: 4px 16px;
+  transition: background .2s;
+}
+
+.devsite-user-avatar {
+  margin: 8px 0 8px 20px;
+  border-radius: 50%;
+  height: 32px;
+  outline: 0;
+  vertical-align: top;
+  width: 32px;
+  flex: 0 0 auto;
+}
