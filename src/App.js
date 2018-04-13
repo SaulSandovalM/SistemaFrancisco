@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import {Routes} from './routes';
 import './App.css';
 import Nav from './components/nav/NavContainer';
-import Footer from './components/footer/Footer';
 
 class App extends Component {
     render() {
@@ -11,7 +10,6 @@ class App extends Component {
                 <div>
                     <Nav />
                     <Routes />
-                    <Footer />
                 </div>
             </div>
         );

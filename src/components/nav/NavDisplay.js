@@ -24,7 +24,7 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
                 <ul className="devsite-doc-set-nav-tab-list devsite-overflow-tabs-scroll" style={{left: "0px"}}>
                   <li className="devsite-doc-set-nav-tab-container devsite-nav-tab">
                     <Link to="/" className="devsite-nav-tab devsite-doc-set-nav-tab">
-                      Productos
+                      Servicios
                     </Link>
                   </li>
                   <li className="devsite-doc-set-nav-tab-container devsite-nav-tab">
