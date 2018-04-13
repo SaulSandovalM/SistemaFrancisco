@@ -520,7 +520,6 @@ class HomeContainer extends Component {
               <div className="firesite-row-header__title firesite-columns__col firesite-columns__weight-5">
                 Escuelas con la confianza de usar nuestro sistema
               </div>
-              <div className="firesite-columns__col firesite-columns__weight-1"></div>
               <p className="firesite-row-header__description firesite-columns__col firesite-columns__weight-6">
                 Muchas personas en todas partes del estado estan usando (Nombre de la plataforma) en sus escuelas.
               </p>

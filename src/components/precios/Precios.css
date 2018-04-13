@@ -1,0 +1,84 @@
+.devsite-table-wrapper {
+  margin: 16px 0;
+  overflow: auto;
+}
+
+.firesite-pricing-table {
+  border-right: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+thead {
+  display: table-header-group;
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+.firesite-pricing-table__header__cell {
+  background-color: #f5f5f5;
+  vertical-align: top;
+}
+
+th {
+  font: 500 16px/24px Roboto,sans-serif;
+  height: 48px;
+}
+
+.firesite-pricing-table__header__cell__plan-name {
+  font-size: 18px;
+  margin-bottom: 7px;
+  color: #fff;
+}
+
+.firesite-pricing-table__header__cell__title {
+  color: #757575;
+  font-family: 'Google Sans',Roboto,sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.firesite-pricing-table__header__cell__title2 {
+  color: #fff;
+  font-family: 'Google Sans',Roboto,sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.firesite-pricing-table__header__cell--products {
+  width: 28%;
+}
+
+.firesite-pricing-table__header__cell--spark {
+    background-color: #4fc3f7;
+}
+
+.firesite-pricing-table__header__cell--flame {
+    background-color: #039be5;
+}
+
+.firesite-pricing-table__header__cell--blaze {
+  background-color: #3c587c;
+}
+
+.firesite-pricing-table__header__cell__plan-description {
+  color: #fff;
+}
+
+.firesite-button {
+  background-color: #fff;
+  color: #039be5;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  display: inline-flex;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 8px;
+}
