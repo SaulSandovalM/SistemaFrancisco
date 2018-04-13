@@ -23,22 +23,22 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
               <nav className="devsite-doc-set-nav devsite-nav devsite-overflow-tabs-scroll-wrapper">
                 <ul className="devsite-doc-set-nav-tab-list devsite-overflow-tabs-scroll" style={{left: "0px"}}>
                   <li className="devsite-doc-set-nav-tab-container devsite-nav-tab">
-                    <Link to="/" className="devsite-nav-tab devsite-doc-set-nav-tab">
+                    <Link to="/Servicios" className="devsite-nav-tab devsite-doc-set-nav-tab">
                       Servicios
                     </Link>
                   </li>
                   <li className="devsite-doc-set-nav-tab-container devsite-nav-tab">
-                    <Link to="/" className="devsite-nav-tab devsite-doc-set-nav-tab">
+                    <Link to="/Uso" className="devsite-nav-tab devsite-doc-set-nav-tab">
                       Casos de Uso
                     </Link>
                   </li>
                   <li className="devsite-doc-set-nav-tab-container devsite-nav-tab">
-                    <Link to="/" className="devsite-nav-tab devsite-doc-set-nav-tab">
+                    <Link to="/Precios" className="devsite-nav-tab devsite-doc-set-nav-tab">
                       Precios
                     </Link>
                   </li>
                   <li className="devsite-doc-set-nav-tab-container devsite-nav-tab">
-                    <Link to="/" className="devsite-nav-tab devsite-doc-set-nav-tab">
+                    <Link to="/Contacto" className="devsite-nav-tab devsite-doc-set-nav-tab">
                       Contacto
                     </Link>
                   </li>
@@ -49,7 +49,7 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
               </nav>
             </div>
 
-            <Link to="/" className="devsite-header-link devsite-top-button button">
+            <Link to="/Tareas" className="devsite-header-link devsite-top-button button">
               Ir a tareas
             </Link>
 
