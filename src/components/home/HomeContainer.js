@@ -13,7 +13,7 @@ class HomeContainer extends Component {
 
   render() {
     return (
-      <div>
+      <div className="background">
         <div className="firesite-event-banner firesite-event-banner--dark firesite-event-banner--crashlytics-launch">
           <div className="firesite-row">
             <div className="firesite-event-banner__content">
@@ -23,9 +23,6 @@ class HomeContainer extends Component {
             </div>
           </div>
         </div>
-
-        <section className="firesite-row is-graphic-row">
-        </section>
 
         <section className="firesite-row is-card is-page-header-row intro-card">
           <div className="firesite-row__inner">
@@ -66,7 +63,7 @@ class HomeContainer extends Component {
 
             <div className="firesite-row__footer">
               <div className="firesite-row-footer__body">
-                (Nombre del Sistema) es compatible con las siguientes plataformas:
+                Tiny es compatible con las siguientes plataformas:
                 {/*<span className="nowrap">
                   <i className="gmp-icons plat" data-tooltip="iOS supported">plat_ios</i>
                   <i className="gmp-icons plat" data-tooltip="Android supported">plat_android</i>
@@ -78,8 +75,6 @@ class HomeContainer extends Component {
             </div>
           </div>
         </section>
-
-        <br/>
 
         <section className="firesite-row is-card features-card">
           <div className="firesite-row__inner">
@@ -432,8 +427,6 @@ class HomeContainer extends Component {
           </div>
         </section>
 
-        <br/>
-
         <section className="firesite-row is-card usecases-card">
           <div className="firesite-row__inner">
             <div className="firesite-row-header firesite-columns">
@@ -512,8 +505,6 @@ class HomeContainer extends Component {
           </div>
         </section>
 
-        <br/>
-
         <section className="firesite-row is-card">
           <div className="firesite-row__inner">
             <div className="firesite-row-header firesite-columns">
@@ -521,62 +512,60 @@ class HomeContainer extends Component {
                 Escuelas con la confianza de usar nuestro sistema
               </div>
               <p className="firesite-row-header__description firesite-columns__col firesite-columns__weight-6">
-                Muchas personas en todas partes del estado estan usando (Nombre de la plataforma) en sus escuelas.
+                Muchas personas en todas partes del estado estan usando Tiny en sus escuelas.
               </p>
             </div>
             <div className="firesite-columns app-makers">
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/nytimes_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/npr-one_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/shazam_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/duolingo_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/alibaba_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/lyft_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/venmo_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/the-economist_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/trivago_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/ctrip_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/wattpad_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
               <div className="firesite-columns__col firesite-columns__weight-3">
-                <img src="https://firebase.google.com/images/appmakers/jet_1x.png?hl=es-419"/>
+                <img src="http://sistemas.uaeh.edu.mx/accesoGeneralMovil/SIGLAS%20UAEH-02.png" style={{height: "150px", width: "200px"}}/>
               </div>
             </div>
           </div>
         </section>
 
-        <br/>
-
         <section className="firesite-row firesite-footer-row">
-          <div className="">
+          <div className="padding">
             <div className="firesite-footer-row__tagline">
-              Prueba (Nombre) hoy mismo sin cargo. <br/> La integración del sistema a tu institución es facil.
+              Prueba Tiny hoy mismo. <br/> La integración del sistema a tu institución es facil.
             </div>
 
             <div className="firesite-row__buttons">
-              <a href="https://console.firebase.google.com/?hl=es-419" className="firesite-button is-hero is-raised" >
+              <div className="firesite-button is-hero is-raised">
                 Comenzar
-              </a>
+              </div>
             </div>
           </div>
         </section>

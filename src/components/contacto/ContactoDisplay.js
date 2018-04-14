@@ -1,7 +1,6 @@
 import React from 'react';
 import './Contacto.css';
 import FontAwesome from 'react-fontawesome';
-import antena from '../../assets/antena.png';
 
 export const ContactoDisplay = ({onSave, errors, onChangeMessage, name, email, tel, msj }) => {
 

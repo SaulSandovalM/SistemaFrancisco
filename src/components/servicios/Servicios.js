@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 class Servicios extends Component {
   render() {
     return (
-      <div>
+      <div className="background">
 
         <section className="firesite-row is-page-header-row">
           <div className="firesite-row__inner">
@@ -51,12 +51,15 @@ class Servicios extends Component {
                 </div>
                 <div className="firesite-feature-boxes__title">
                   <div>
-                    Realtime&nbsp;Database
+                    Tareas Diarias
                   </div>
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Almacena y sincroniza datos entre usuarios y dispositivos en tiempo real a través de una base de datos noSQL alojada en la nube. Los datos actualizados se sincronizan entre distintos dispositivos conectados en milisegundos y permanecen disponibles si la app pierde la conexión a la red, lo que brinda una experiencia del usuario de alta calidad sin importar el estado de la conectividad.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha
+                  sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T.
+                  persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera
+                  que logró hacer un libro de textos especimen.
                 </article>
               </div>
               <div className="firesite-feature-boxes__box is-pillar-develop-features">
@@ -64,24 +67,14 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Crashlytics
+                  Monitor de Rendimiento
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Reduce your troubleshooting time by turning an avalanche of crashes into a manageable list of issues. Get clear, actionable insight into which issues to tackle first by seeing the user impact right in the Crashlytics dashboard. Realtime alerts will help you stay on top of stability even on the go. Crashlytics is the primary crash reporter for Firebase.
-                </article>
-              </div>
-
-              <div className="firesite-feature-boxes__box is-pillar-develop-features">
-                <div className="firesite-feature-icon2">
-                  <i className="gmp-icons"></i>
-                </div>
-                <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
-                </div>
-
-                <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -90,10 +83,14 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Realizar Examenes
                 </div>
+
                 <article className="firesite-feature-boxes__description">
-                  Administra tus usuarios de manera simple y segura. Firebase&nbsp;Auth ofrece varios métodos para autenticar, entre ellos correo electrónico y contraseña, proveedores externos como Google o Facebook, o tu sistema de cuentas existente de manera directa. Crea tu propia interfaz o aprovecha nuestra IU de código abierto y totalmente personalizable.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -102,11 +99,13 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Envio de Tareas
                 </div>
-
                 <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -115,11 +114,14 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Chatea con tus Maestros
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -128,11 +130,14 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Autenticación
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -141,11 +146,14 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Disponible en Android y IOS
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -154,13 +162,17 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Calendario
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
+
             </div>
           </div>
         </section>
@@ -183,12 +195,15 @@ class Servicios extends Component {
                 </div>
                 <div className="firesite-feature-boxes__title">
                   <div>
-                    Realtime&nbsp;Database
+                    Analisis
                   </div>
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Almacena y sincroniza datos entre usuarios y dispositivos en tiempo real a través de una base de datos noSQL alojada en la nube. Los datos actualizados se sincronizan entre distintos dispositivos conectados en milisegundos y permanecen disponibles si la app pierde la conexión a la red, lo que brinda una experiencia del usuario de alta calidad sin importar el estado de la conectividad.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
               <div className="firesite-feature-boxes__box is-pillar-develop-features">
@@ -196,24 +211,14 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Crashlytics
+                  Mensajes
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Reduce your troubleshooting time by turning an avalanche of crashes into a manageable list of issues. Get clear, actionable insight into which issues to tackle first by seeing the user impact right in the Crashlytics dashboard. Realtime alerts will help you stay on top of stability even on the go. Crashlytics is the primary crash reporter for Firebase.
-                </article>
-              </div>
-
-              <div className="firesite-feature-boxes__box is-pillar-develop-features">
-                <div className="firesite-feature-icon2">
-                  <i className="gmp-icons"></i>
-                </div>
-                <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
-                </div>
-
-                <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -222,10 +227,14 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Envía notificaciones y mensajes orientados
                 </div>
+
                 <article className="firesite-feature-boxes__description">
-                  Administra tus usuarios de manera simple y segura. Firebase&nbsp;Auth ofrece varios métodos para autenticar, entre ellos correo electrónico y contraseña, proveedores externos como Google o Facebook, o tu sistema de cuentas existente de manera directa. Crea tu propia interfaz o aprovecha nuestra IU de código abierto y totalmente personalizable.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -234,11 +243,13 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Grupos
                 </div>
-
                 <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -247,11 +258,14 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Links Dinamicos
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -260,11 +274,14 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Configuracion
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -273,11 +290,14 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Invitaciones
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
 
@@ -286,13 +306,17 @@ class Servicios extends Component {
                   <i className="gmp-icons"></i>
                 </div>
                 <div className="firesite-feature-boxes__title">
-                  Cloud Firestore
+                  Contacto
                 </div>
 
                 <article className="firesite-feature-boxes__description">
-                  Store and sync data between users and devices - at global scale - using a cloud-hosted, noSQL database. Cloud Firestore gives you live synchronization and offline support along with efficient data queries. Its integration with other Firebase products enables you to build truly serverless apps.
+                  Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido
+                  el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona
+                  que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró
+                  hacer un libro de textos especimen.
                 </article>
               </div>
+
             </div>
           </div>
         </section>
@@ -304,11 +328,6 @@ class Servicios extends Component {
             <div className="firesite-row-header__title">
               Usa Firebase para superar los desafíos más exigentes
             </div>
-            <Link to="/Uso">
-              <div className="firesite-button is-hero is-raised gc-analytics-event">
-                Ver casos de uso
-              </div>
-            </Link>
           </div>
         </section>
 

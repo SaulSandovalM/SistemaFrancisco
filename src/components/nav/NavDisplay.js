@@ -1,6 +1,5 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
-import logo from '../../assets/geek_completo.png';
 import user from '../../assets/user.png';
 
 export const NavDisplay = ({isLogged, signOut, photoURL}) => {
@@ -14,7 +13,7 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
             </button>*/}
             <div className="devsite-product-name-wrapper">
               <Link to="/">
-                <img className="devsite-site-logo" src={logo} alt="logo"/>
+
               </Link>
               {/*<span className="devsite-site-name devsite-product-name">Nombre</span>*/}
             </div>
@@ -52,8 +51,6 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
             <Link to="/Tareas" className="devsite-header-link devsite-top-button button">
               Ir a tareas
             </Link>
-
-            <img className="devsite-user-avatar" src={user} alt="user"/>
 
             {!isLogged ?
                 <div className="devsite-header-link devsite-top-button button">

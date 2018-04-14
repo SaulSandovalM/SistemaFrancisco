@@ -1,5 +1,5 @@
 .devsite-top-section {
-  background-color: #ffffff;
+  background-color: #4aa3df;
   box-shadow: 0 0 4px rgba(0, 0, 0, 0.14), 0 4px 8px rgba(0, 0, 0, .28);
   position: static;
   top: 0;
@@ -22,7 +22,7 @@
 }
 
 .devsite-top-logo-row-wrapper {
-  background: #ffffff;
+  background: #4aa3df;
 }
 
 .devsite-top-logo-row {
@@ -172,7 +172,7 @@ ul {
   transition: color .2s;
   outline: 0;
   text-decoration: none;
-  color: rgba(0, 0, 0, 0.54);
+  color: #fff;
 }
 
 .devsite-overflow-tabs-scroll-button {
@@ -180,7 +180,7 @@ ul {
 }
 
 .devsite-top-button {
-  color: #039be5;
+  color: #fff;
   box-shadow: none;
 
 }
@@ -196,7 +196,7 @@ ul {
 .devsite-header-link {
   align-items: center;
   display: flex;
-  margin: 6px -8px 6px 16px;
+  margin: 6px -8px 6px 30px;
 }
 
 .devsite-top-button {
