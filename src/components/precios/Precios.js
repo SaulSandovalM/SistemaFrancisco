@@ -26,8 +26,6 @@ class Precios extends Component {
         </div>
       </section>
 
-
-
       <section className="firesite-row">
         <div className="firesite-row__inner">
           <div className="devsite-table-wrapper">
