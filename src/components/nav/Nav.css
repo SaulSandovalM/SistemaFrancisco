@@ -274,12 +274,12 @@ ul {
   flex: 0 0 auto;
 }
 
-.userphoto {
-  margin: 8px 0 8px 8px;
-  border-radius: 50%;
-  height: 32px;
-  outline: 0;
-  vertical-align: top;
-  width: 32px;
-  flex: 0 0 auto;
+.userphoto{
+margin:  8px 0 8px 8px;
+border-radius: 50%;
+height: 32px;
+outline: 0;
+vertical-align: top;
+width: 32px;
+flex: 0 0 auto;
 }

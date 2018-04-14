@@ -96,7 +96,7 @@
   font-weight: 400;
 }
 
-.firesite-feature-boxes2 {
+.firesite-feature-boxes {
   display: inline-flex;
   flex-flow: row;
   flex-wrap: wrap;
@@ -118,30 +118,6 @@
   margin-left: -1px;
 }
 
-.firesite-feature-icon2 {
-  margin-bottom: 16px;
-  font-size: 80px;
-  background-color: #ffc107;
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  border-radius: 50%;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 1px 0.2px rgba(255,255,255,.5) inset, 0 -1px 0.2px rgba(255,143,0,.3) inset, 3px 3px 0 #b3e5fc;
-}
+.firesite-feature-icon {
 
-.firesite-feature-boxes__title {
-  font-size: 18px;
-  line-height: 26px;
-  font-weight: 500;
-  color: #ff8f00;
-  margin-bottom: 8px;
-}
-
-.firesite-feature-boxes__description {
-  font-size: 14px;
-  line-height: 24px;
-  color: #757575;
-  padding-bottom: 40px;
 }
