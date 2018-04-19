@@ -11,7 +11,7 @@ class Precios extends Component {
 
   render() {
     return (
-      <div>
+      <div className="background">
 
       <section className="firesite-row">
         <div className="firesite-row__inner">

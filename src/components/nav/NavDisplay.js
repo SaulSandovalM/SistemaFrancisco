@@ -1,6 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import user from '../../assets/user.png';
+import tiny from '../../assets/tiny.png';
 
 export const NavDisplay = ({isLogged, signOut, photoURL}) => {
   return (
@@ -13,7 +14,7 @@ export const NavDisplay = ({isLogged, signOut, photoURL}) => {
             </button>*/}
             <div className="devsite-product-name-wrapper">
               <Link to="/">
-
+                <img className="tiny" src={tiny} alt="logo"/>
               </Link>
               {/*<span className="devsite-site-name devsite-product-name">Nombre</span>*/}
             </div>

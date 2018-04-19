@@ -24,7 +24,7 @@ class HomeContainer extends Component {
           </div>
         </div>
 
-        <section className="firesite-row is-card is-page-header-row intro-card">
+        <section className="firesite-row is-page-header-row intro-card">
           <div className="firesite-row__inner">
             <div className="firesite-page-header">
               <div className="firesite-page-header__tagline">
@@ -76,7 +76,7 @@ class HomeContainer extends Component {
           </div>
         </section>
 
-        <section className="firesite-row is-card features-card">
+        <section className="firesite-row features-card">
           <div className="firesite-row__inner">
             <div className="firesite-row-header firesite-columns">
               <div className="firesite-columns__col firesite-row-header__title">
@@ -427,7 +427,7 @@ class HomeContainer extends Component {
           </div>
         </section>
 
-        <section className="firesite-row is-card usecases-card">
+        <section className="firesite-row usecases-card">
           <div className="firesite-row__inner">
             <div className="firesite-row-header firesite-columns">
               <div className="firesite-row-header__title firesite-columns__col firesite-columns__weight-6">
@@ -505,7 +505,7 @@ class HomeContainer extends Component {
           </div>
         </section>
 
-        <section className="firesite-row is-card">
+        <section className="firesite-row">
           <div className="firesite-row__inner">
             <div className="firesite-row-header firesite-columns">
               <div className="firesite-row-header__title firesite-columns__col firesite-columns__weight-5">

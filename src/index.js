@@ -15,13 +15,11 @@ export const store = configureStore();
 store.dispatch(checkForUser());
 
 const WithRouter = () => (
-
-    <Provider store={store}>
-        <BrowserRouter>
-            <App />
-        </BrowserRouter>
-    </Provider>
-
+  <Provider store={store}>
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
+  </Provider>
 );
 
 ReactDOM.render(<WithRouter />, document.getElementById('root'));

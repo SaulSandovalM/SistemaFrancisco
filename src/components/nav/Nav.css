@@ -7,6 +7,10 @@
   z-index: 10005
 }
 
+.tiny {
+  height:45px;
+}
+
 .devsite-top-section-pinned {
   position: fixed;
   transform: rotateZ(0);

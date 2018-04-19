@@ -10,9 +10,10 @@ class Servicios extends Component {
         <section className="firesite-row is-page-header-row">
           <div className="firesite-row__inner">
             <div className="firesite-page-header">
-              <div className="firesite-page-header__title">Productos</div>
+              <div className="firesite-page-header__title">Servicios</div>
               <div className="firesite-page-header__tagline">
-                Nuestros productos combinan fuerzas para mejorar las apps y empoderar a los usuarios.</div>
+                Nuestros productos combinan fuerzas para mejorar las apps y empoderar a los usuarios.
+              </div>
             </div>
 
             <div className="firesite-columns">
@@ -35,7 +36,7 @@ class Servicios extends Component {
 
         <br/>
 
-        <section className="firesite-row is-card">
+        <section className="firesite-row">
           <div className="firesite-row__inner">
             <div className="firesite-row-header">
               <div className="firesite-row-header__title">
@@ -179,7 +180,7 @@ class Servicios extends Component {
 
         <br/>
 
-        <section className="firesite-row is-card">
+        <section className="firesite-row">
           <div className="firesite-row__inner">
             <div className="firesite-row-header">
               <div className="firesite-row-header__title">
@@ -323,10 +324,10 @@ class Servicios extends Component {
 
         <br/>
 
-        <section className="firesite-row is-card">
+        <section className="firesite-row">
           <div className="firesite-row__inner see-use-cases">
             <div className="firesite-row-header__title">
-              Usa Firebase para superar los desafíos más exigentes
+              Usa Tiny para superar las tareas más exigentes
             </div>
           </div>
         </section>
