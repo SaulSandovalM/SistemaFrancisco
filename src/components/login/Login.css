@@ -1,8 +1,8 @@
 .login {
-  background-image: url('http://mediad.publicbroadcasting.net/p/wpr/files/201801/genericclassroom.jpg');
+  background-image: url('https://images.pexels.com/photos/207691/pexels-photo-207691.jpeg?auto=compress&cs=tinysrgb&h=650&w=940.jpg');
   width: auto;
   height: auto;
-  min-height: 500px;
+  min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 50px;
@@ -16,6 +16,7 @@
 
 .card_login {
   background-color: white;
+  opacity: 0.9;
   width: 35%;
   margin: 0 auto;
   padding: 30px 20px;

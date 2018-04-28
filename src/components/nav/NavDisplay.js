@@ -2,10 +2,12 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import user from '../../assets/user.png';
 import tiny from '../../assets/tiny.png';
+import './Navi.css';
 
 export const NavDisplay = ({isLogged, signOut, photoURL}) => {
   return (
-    <div className="devsite-top-section nocontent devsite-top-section-pinned">
+
+    <div className="nav-home">
       <div className="devsite-top-logo-row-wrapper-wrapper" style={{position:"relative"}}>
         <div className="devsite-top-logo-row-wrapper">
           <div className="devsite-top-logo-row devsite-full-site-width">

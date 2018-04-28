@@ -10,15 +10,17 @@ class Servicios extends Component {
         <section className="firesite-row is-page-header-row">
           <div className="firesite-row__inner">
             <div className="firesite-page-header">
-              <div className="firesite-page-header__title">Servicios</div>
+              <div className="firesite-page-header__title"> <h2> Servicios </h2></div>
               <div className="firesite-page-header__tagline">
-                Nuestros productos combinan fuerzas para mejorar las apps y empoderar a los usuarios.
+            <p>   Nuestros productos combinan fuerzas para mejorar las apps y empoderar a los usuarios. </p>
               </div>
             </div>
 
             <div className="firesite-columns">
               <div className="firesite-columns__col jump">
+                <div className="ultimo"> 
                 <span>Compila mejores apps</span>
+                </div>
                   <div className="firesite-button no-pad">
                       Pasar a los productos de creación
                   </div>

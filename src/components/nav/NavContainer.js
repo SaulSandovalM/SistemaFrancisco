@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import {NavDisplay} from './NavDisplay';
-import './Nav.css';
 import {withRouter} from 'react-router-dom';
-//redux
 import {connect} from 'react-redux';
 import {logoutAction} from '../../redux/actions/userAction';
+import './Navi.css';
 
 class NavContainer extends Component {
   state = {
