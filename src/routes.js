@@ -6,7 +6,7 @@ import Contacto from './components/contacto/Contacto';
 import Servicios from './components/servicios/Servicios';
 import Uso from './components/uso/Uso';
 import Precios from './components/precios/Precios';
-import Tareas from './components/tareas/Tareas';
+import Tareas from './components/tareas/CalendarContainer';
 
 export const Routes = () => (
     <Switch>
