@@ -1,5 +1,5 @@
 .nav-home{
-width: 100%;
+  width: 100%;
 }
 
 .devsite-top-section {
@@ -149,10 +149,6 @@ ul {
   list-style: disc outside;
 }
 
-.devsite-doc-set-nav-tab-list {
-
-}
-
 .devsite-overflow-tabs-scroll {
   left: 0;
   position: relative;
@@ -190,15 +186,6 @@ ul {
 .devsite-top-button {
   color: #fff;
   box-shadow: none;
-
-}
-
-.devsite-scroll-forward {
-
-}
-
-.devsite-hidden {
-
 }
 
 .devsite-header-link {
@@ -208,16 +195,12 @@ ul {
 }
 
 .devsite-header-link span{
-color: white;
-
+  color: white;
 }
+
 .devsite-header-link span:hover{
-text-decoration: underline;
-
-
+  text-decoration: underline;
 }
-
-
 
 .devsite-top-button {
   background: 0;
@@ -279,12 +262,10 @@ text-decoration: underline;
 }
 
 .devsite-settings-menu-link {
-
   font: 14px/20px Roboto, sans-serif;
   padding: 4px 16px;
   transition: background .2s;
 }
-
 
 .devsite-user-avatar {
   margin: 8px 0 8px 20px;
@@ -305,7 +286,6 @@ text-decoration: underline;
   width: 32px;
   flex: 0 0 auto;
 }
-
 
 @media only screen and (max-width: 420px) {
   .devsite-nav-tab {
@@ -340,8 +320,6 @@ text-decoration: underline;
     /*padding: 8px;*/
   }
 
-
-
   .devsite-overflow-tabs-scroll-button {
     background: #fff;
   }
@@ -365,7 +343,6 @@ text-decoration: underline;
     overflow: hidden;
     position: relative;
     width: 100%;
-
   }
 
   .devsite-header-upper-tabs:not(:empty) {
@@ -379,10 +356,4 @@ text-decoration: underline;
     vertical-align: top;
     transition: flex .2s, margin .2s, width .2s, -ms-flex .2s;
   }
-
-
-
-
-
-
 }
